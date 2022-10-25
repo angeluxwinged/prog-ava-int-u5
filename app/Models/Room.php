@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Room;
 
 class Room extends Model
 {
@@ -12,7 +13,7 @@ class Room extends Model
     protected $fillable = [
         'number',
         'capacity',
-        'type'
+        'type',
 
     ];
 }
